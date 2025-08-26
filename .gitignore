@@ -1,0 +1,28 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform cache and provider directories
+.terraform/
+.terraform.lock.hcl
+
+# Variable definition files
+*.tfvars
+*.tfvars.json # Although you only have terraform.tfvars, it's good practice to include this
+
+# CLI configuration files (not present in your list, but good to include)
+.terraformrc
+terraform.rc
+
+# Crash log files (not present in your list, but good to include)
+crash.log
+crash.*.log
+
+# Plan files (if you use the -out flag)
+*.tfplan
+
+# Sensitive files
+my-key-pair.pem # Key files should never be committed
+
+# Other generated files that aren't necessary for version control
+target/ # This is a common output directory for Java projects (pom.xml suggests this)

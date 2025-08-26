@@ -1,0 +1,6 @@
+com\xops\controller\UserController.class
+com\xops\SpringDemoApplication.class
+com\xops\entity\User.class
+com\xops\config\DataInitializer.class
+com\xops\service\UserService.class
+com\xops\repository\UserRepository.class
